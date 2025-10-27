@@ -4,18 +4,18 @@ print("WELCOME TO SIMPLE ARITHMETIC APPP")
 scores = 0
 
 for count in range(1, 11):
-		first_number = random.randint(0, 20)
-		second_number = random.randint(0, first_number)
-print(f" Question: what is (first_number) - (second_number)?")
+		first_number = random.randint(0, 50)
+		second_number = random.randint(0, 20)
+print(f" Question: what is", first_number, -  second_number)
 
 
-for attempt in range(1, 3):
+for attempt in range(1, 9):
 		Answer = int(input("your answer: "))
 		if Answer == first_number - second_number:
 			print("correct answer")
-			scores =  score + 1
+			scores =  scores + 1
 		break
 
-		elif 
+		if Answer != first_number - second_number:
 
-print("incorrect answer")
+			print("incorrect answer")
