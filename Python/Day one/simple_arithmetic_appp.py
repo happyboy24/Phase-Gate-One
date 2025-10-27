@@ -13,6 +13,9 @@ for attempt in range(1, 9):
 		Answer = int(input("your answer: "))
 		if Answer == first_number - second_number:
 			print("correct answer")
+			print(f" Question: what is", first_number, -  second_number)
+
+
 			scores =  scores + 1
 		break
 
