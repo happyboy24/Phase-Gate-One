@@ -2,6 +2,7 @@ public class Perfectt {
     public static void main(String[] args) {
 
 
+
     int count = 2;
 
     boolean isSquare = false;
@@ -11,15 +12,15 @@ public class Perfectt {
     for (int num = 0; num < number.length; num++) { 
 	    int result = number[num];
    
-    count = number[num] / count;
+    count = result / count;
     isSquare = false;
      
-    if (count * count == number[num]) 
+    if (count * count >= result) 
     isSquare = true; 
 
 	count++;
     
-   System.out.println(number[num] + "." + isSquare);   
+   System.out.println(result + "." + isSquare);   
    }
   } 
  }

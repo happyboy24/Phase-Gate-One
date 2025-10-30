@@ -8,7 +8,7 @@ palindromeword(words);
 public static void palindromeword(String[] words) {
 	
 	for (String word : words) {
-	String returnedWord = new Stringholder(word).reverse();
+	String reversedWord = new Stringholder(word).reverse();
 
 boolean isPalindrome = word.equals(returnedWord);
 

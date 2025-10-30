@@ -1,11 +1,29 @@
 def perfect_square(test_list):
-	i = 1
-	for num in test_list:
-		if num == i*i:
-			return True
-		else:
-			return False
-	i = i + 1
 
-test_list = [4, 9, 25, 49]
-print(perfect_square(test_list))
+  
+
+	is_Square = False
+    
+number = [4,8,9,12,16,25,49];
+  
+count = 2  
+for num in range(len(number)): 
+	    result = number[num]
+
+count = result /count
+is_Square = False
+     
+if count * count >= result:
+    is_Square = True
+
+count = count + 1
+    
+print(result , "." , is_Square)
+
+
+
+    
+
+    
+
+    
