@@ -3,9 +3,9 @@ public class TheQuiz {
 	public static void main(String[]args){
 	        Scanner input = new Scanner(System.in);
 
-	int correct = 0;
+	
 	int CorrectAnswer = 0;
-	CorrectAnswer += correct;
+	
 	System.out.println("What is Good Morning in korean? ");
 	System.out.println(" (a)  annyeonghaseyo");
 	System.out.println(" (b)  gutmoning");
