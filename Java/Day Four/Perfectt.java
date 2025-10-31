@@ -20,7 +20,7 @@ public class Perfectt {
 
 	count++;
     
-   System.out.println(result + "." + isSquare);   
+   System.out.print( "." + isSquare);   
    }
   } 
  }

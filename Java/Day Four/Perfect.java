@@ -1,3 +1,4 @@
+import java.util.Array;
 public class Perfect {
 
 	  public int totalNumberInTheArray() {
@@ -13,7 +14,7 @@ public class Perfect {
 	return 0;
 }
 
-	public static void perfectsquare() {
+	public static void CheckSquare(int[] array) {
 	
     int count = 2;
 
@@ -32,7 +33,7 @@ public class Perfect {
 
 	count++;
     
-   	return perfectsquare();  
+   	return CheckSquare(int[] array);  
    }
 
 }
